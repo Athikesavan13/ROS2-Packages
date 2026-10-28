@@ -1,0 +1,1 @@
+WARNING: Package "my_package" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
