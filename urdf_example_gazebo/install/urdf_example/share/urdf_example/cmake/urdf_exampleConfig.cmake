@@ -1,0 +1,1 @@
+/home/user/Athi-26532/ROS_Practice/urdf_example_gazebo/build/urdf_example/ament_cmake_core/urdf_exampleConfig.cmake

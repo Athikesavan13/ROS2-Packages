@@ -1,0 +1,1 @@
+/home/user/Athi-26532/ROS_Practice/urdf_example_gazebo/urdf_example/launch/rsp_sim.launch.py
