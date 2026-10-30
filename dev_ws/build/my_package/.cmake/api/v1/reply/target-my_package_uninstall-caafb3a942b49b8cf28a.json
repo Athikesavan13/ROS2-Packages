@@ -98,13 +98,13 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "/home/user/Athi-26532/dev_ws/build/my_package/CMakeFiles/my_package_uninstall",
+			"path" : "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/CMakeFiles/my_package_uninstall",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/user/Athi-26532/dev_ws/build/my_package/CMakeFiles/my_package_uninstall.rule",
+			"path" : "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/CMakeFiles/my_package_uninstall.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

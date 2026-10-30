@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-54ffc542a480526e9916.json",
+					"jsonFile" : "directory-.-5a072f27659ca99712ac.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "my_package_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-my_package_uninstall-f94b22b0dee75ab0b40b.json",
+					"jsonFile" : "target-my_package_uninstall-caafb3a942b49b8cf28a.json",
 					"name" : "my_package_uninstall",
 					"projectIndex" : 0
 				},
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/user/Athi-26532/dev_ws/build/my_package",
-		"source" : "/home/user/Athi-26532/dev_ws/my_package"
+		"build" : "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package",
+		"source" : "/home/user/Athi-26532/ROS_Practice/dev_ws/my_package"
 	},
 	"version" : 
 	{

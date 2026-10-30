@@ -1,2 +1,0 @@
-Invoking command in '/home/user/Athi-26532/dev_ws/build/my_package': /usr/bin/cmake /home/user/Athi-26532/dev_ws/my_package -DCMAKE_INSTALL_PREFIX=/home/user/Athi-26532/dev_ws/install/my_package
-Invoked command in '/home/user/Athi-26532/dev_ws/build/my_package' returned '1': /usr/bin/cmake /home/user/Athi-26532/dev_ws/my_package -DCMAKE_INSTALL_PREFIX=/home/user/Athi-26532/dev_ws/install/my_package

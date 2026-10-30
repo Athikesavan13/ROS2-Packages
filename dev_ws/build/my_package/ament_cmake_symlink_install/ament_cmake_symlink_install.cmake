@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/user/Athi-26532/dev_ws/install/my_package/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/user/Athi-26532/ROS_Practice/dev_ws/install/my_package/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/user/Athi-26532/dev_ws/install/my_package/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/user/Athi-26532/ROS_Practice/dev_ws/install/my_package/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/user/Athi-26532/dev_ws/install/my_package/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/user/Athi-26532/ROS_Practice/dev_ws/install/my_package/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/user/Athi-26532/dev_ws/install/my_package/${destination}")
+      set(destination "/home/user/Athi-26532/ROS_Practice/dev_ws/install/my_package/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -315,47 +315,47 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "DESTINATION" "share/{PROJECT_NAME}")
-ament_cmake_symlink_install_directory("/home/user/Athi-26532/dev_ws/my_package" DIRECTORY "launch" "DESTINATION" "share/{PROJECT_NAME}")
+# install(DIRECTORY "launch" "DESTINATION" "share/my_package")
+ament_cmake_symlink_install_directory("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" DIRECTORY "launch" "DESTINATION" "share/my_package")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_package" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_package" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_package" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_package" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_package" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_package" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_package" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_package" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_package/environment")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_package/environment")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_package/environment")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_package/environment")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_package/environment")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_package/environment")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_package/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_package/environment")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_package/environment")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_package/environment")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_package/environment")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_package/environment")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_package/environment")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_package/environment")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_package")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_package")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_package")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_package")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_package")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_package")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_package")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_package")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_package")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_package")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_package")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_package")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_package")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_package")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_package")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_package")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_package")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_package")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_package")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_package")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/packages/my_package" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/packages/my_package" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/packages/my_package" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/packages/my_package" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_core/my_packageConfig.cmake" "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_core/my_packageConfig-version.cmake" "DESTINATION" "share/my_package/cmake")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_core/my_packageConfig.cmake" "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_core/my_packageConfig-version.cmake" "DESTINATION" "share/my_package/cmake")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_core/my_packageConfig.cmake" "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_core/my_packageConfig-version.cmake" "DESTINATION" "share/my_package/cmake")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_core/my_packageConfig.cmake" "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_core/my_packageConfig-version.cmake" "DESTINATION" "share/my_package/cmake")
 
-# install(FILES "/home/user/Athi-26532/dev_ws/my_package/package.xml" "DESTINATION" "share/my_package")
-ament_cmake_symlink_install_files("/home/user/Athi-26532/dev_ws/my_package" FILES "/home/user/Athi-26532/dev_ws/my_package/package.xml" "DESTINATION" "share/my_package")
+# install(FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/my_package/package.xml" "DESTINATION" "share/my_package")
+ament_cmake_symlink_install_files("/home/user/Athi-26532/ROS_Practice/dev_ws/my_package" FILES "/home/user/Athi-26532/ROS_Practice/dev_ws/my_package/package.xml" "DESTINATION" "share/my_package")

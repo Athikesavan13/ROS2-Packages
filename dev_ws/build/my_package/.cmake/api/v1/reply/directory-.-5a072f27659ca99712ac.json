@@ -81,7 +81,7 @@
 		{
 			"backtrace" : 10,
 			"component" : "Unspecified",
-			"scriptFile" : "/home/user/Athi-26532/dev_ws/build/my_package/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+			"scriptFile" : "/home/user/Athi-26532/ROS_Practice/dev_ws/build/my_package/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
 			"type" : "script"
 		}
 	],
