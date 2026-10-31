@@ -1,0 +1,3 @@
+/home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorCommand.idl
+/home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorVels.idl
+/home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/EncoderVals.idl

@@ -1,0 +1,43 @@
+[0.356s] Invoking command in '/home/user/Athi-26532/ROS_Practice/serial_motor_demo/serial_motor_demo': AMENT_PREFIX_PATH=/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages:/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/serial_motor_demo build --build-base /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build install --record /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[0.486s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.486s]   warnings.warn(
+[0.491s] running egg_info
+[0.491s] creating ../build/serial_motor_demo/serial_motor_demo.egg-info
+[0.491s] writing ../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.491s] writing dependency_links to ../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.491s] writing entry points to ../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.491s] writing requirements to ../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.491s] writing top-level names to ../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.492s] writing manifest file '../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.492s] reading manifest file '../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.493s] writing manifest file '../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.493s] running build
+[0.493s] running build_py
+[0.493s] creating /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build
+[0.493s] creating /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build/lib
+[0.493s] creating /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build/lib/serial_motor_demo
+[0.493s] copying serial_motor_demo/gui.py -> /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build/lib/serial_motor_demo
+[0.493s] copying serial_motor_demo/driver.py -> /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build/lib/serial_motor_demo
+[0.493s] copying serial_motor_demo/__init__.py -> /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build/lib/serial_motor_demo
+[0.493s] running install
+[0.493s] running install_lib
+[0.493s] creating /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[0.493s] copying /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[0.494s] copying /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[0.494s] copying /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[0.494s] byte-compiling /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/gui.py to gui.cpython-310.pyc
+[0.495s] byte-compiling /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/driver.py to driver.cpython-310.pyc
+[0.495s] byte-compiling /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/__init__.py to __init__.cpython-310.pyc
+[0.495s] running install_data
+[0.495s] creating /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/share/ament_index
+[0.495s] creating /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/share/ament_index/resource_index
+[0.495s] creating /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.495s] copying resource/serial_motor_demo -> /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.496s] copying package.xml -> /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/share/serial_motor_demo
+[0.496s] running install_egg_info
+[0.496s] Copying ../build/serial_motor_demo/serial_motor_demo.egg-info to /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[0.497s] running install_scripts
+[0.508s] Installing driver script to /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/serial_motor_demo
+[0.508s] Installing gui script to /home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/serial_motor_demo
+[0.509s] writing list of installed files to '/home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/install.log'
+[0.523s] Invoked command in '/home/user/Athi-26532/ROS_Practice/serial_motor_demo/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages:/home/user/Athi-26532/ROS_Practice/serial_motor_demo/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/serial_motor_demo build --build-base /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/build install --record /home/user/Athi-26532/ROS_Practice/serial_motor_demo/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
