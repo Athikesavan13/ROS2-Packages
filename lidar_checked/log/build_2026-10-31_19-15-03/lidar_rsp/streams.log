@@ -1,0 +1,50 @@
+[0.024s] Invoking command in '/home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp -- -j6 -l6
+[0.078s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.397s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.641s] -- Added test 'lint_cmake' to check CMake code style
+[0.642s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.645s] -- Added test 'xmllint' to check XML markup files
+[0.647s] -- Configuring done
+[0.655s] -- Generating done
+[0.659s] -- Build files have been written to: /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp
+[0.712s] Invoked command in '/home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp -- -j6 -l6
+[0.735s] Invoking command in '/home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp
+[0.754s] -- Install configuration: ""
+[0.755s] -- Execute custom install script
+[0.756s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/description/gazebo_control.xacro
+[0.757s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/description/inertial_macros.xacro
+[0.757s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/description/lidar.xacro
+[0.757s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/description/robot.urdf.xacro
+[0.757s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/description/robot_core.xacro
+[0.758s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/description/sensors.xacro
+[0.758s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/launch/launch_sim.launch.py
+[0.758s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/launch/rplidar.launch.py
+[0.758s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/launch/rsp.launch.py
+[0.758s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/worlds/empty.world
+[0.759s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/worlds/obstacles.world
+[0.759s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/meshes/CAM.STL
+[0.779s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/meshes/IMU.STL
+[0.798s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/meshes/LIDAR.STL
+[0.817s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/meshes/TR_LF.STL
+[0.838s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/meshes/TR_LR.STL
+[0.857s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/meshes/TR_RF.STL
+[0.881s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/meshes/TR_RR.STL
+[0.900s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/meshes/base_link.STL
+[0.920s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/ament_index/resource_index/package_run_dependencies/lidar_rsp
+[0.920s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/ament_index/resource_index/parent_prefix_path/lidar_rsp
+[0.920s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/environment/ament_prefix_path.sh
+[0.921s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/environment/ament_prefix_path.dsv
+[0.921s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/environment/path.sh
+[0.922s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/environment/path.dsv
+[0.922s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/local_setup.bash
+[0.923s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/local_setup.sh
+[0.923s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/local_setup.zsh
+[0.924s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/local_setup.dsv
+[0.924s] -- Symlinking: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/package.dsv
+[0.945s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/ament_index/resource_index/packages/lidar_rsp
+[0.946s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/cmake/lidar_rspConfig.cmake
+[0.946s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/cmake/lidar_rspConfig-version.cmake
+[0.946s] -- Up-to-date symlink: /home/r1a004/Athi_26532/lidar_ros/install/lidar_rsp/share/lidar_rsp/package.xml
+[0.952s] Invoked command in '/home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp

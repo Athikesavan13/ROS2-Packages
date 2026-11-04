@@ -1,0 +1,4 @@
+Invoking command in '/home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp -- -j6 -l6
+Invoked command in '/home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp -- -j6 -l6
+Invoking command in '/home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp
+Invoked command in '/home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/r1a004/Athi_26532/lidar_ros/build/lidar_rsp
