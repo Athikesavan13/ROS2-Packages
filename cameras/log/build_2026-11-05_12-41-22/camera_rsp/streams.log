@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Athi-26532/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp -- -j20 -l20
+[0.056s] Invoked command in '/home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Athi-26532/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp -- -j20 -l20
+[0.074s] Invoking command in '/home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Athi-26532/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp
+[0.087s] -- Install configuration: ""
+[0.088s] -- Execute custom install script
+[0.089s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/camera.xacro
+[0.089s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/gazebo_control.xacro
+[0.089s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/inertial_macros.xacro
+[0.090s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/lidar.xacro
+[0.090s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/robot.urdf.xacro
+[0.090s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/robot_core.xacro
+[0.090s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/sensors.xacro
+[0.090s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/launch/camera.launch.py
+[0.090s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/launch/launch_sim.launch.py
+[0.090s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/launch/rplidar.launch.py
+[0.090s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/launch/rsp_launch.py
+[0.091s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/worlds/empty.world
+[0.091s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/worlds/obstacles.world
+[0.091s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/CAM.STL
+[0.091s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/IMU.STL
+[0.091s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/LIDAR.STL
+[0.091s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/TR_LF.STL
+[0.091s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/TR_LR.STL
+[0.091s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/TR_RF.STL
+[0.092s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/TR_RR.STL
+[0.092s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/base_link.STL
+[0.092s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/ament_index/resource_index/package_run_dependencies/camera_rsp
+[0.092s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/ament_index/resource_index/parent_prefix_path/camera_rsp
+[0.092s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/environment/ament_prefix_path.sh
+[0.092s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/environment/ament_prefix_path.dsv
+[0.093s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/environment/path.sh
+[0.093s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/environment/path.dsv
+[0.093s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/local_setup.bash
+[0.093s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/local_setup.sh
+[0.093s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/local_setup.zsh
+[0.093s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/local_setup.dsv
+[0.093s] -- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/package.dsv
+[0.110s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/ament_index/resource_index/packages/camera_rsp
+[0.110s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/cmake/camera_rspConfig.cmake
+[0.110s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/cmake/camera_rspConfig-version.cmake
+[0.111s] -- Up-to-date symlink: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/package.xml
+[0.114s] Invoked command in '/home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Athi-26532/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp

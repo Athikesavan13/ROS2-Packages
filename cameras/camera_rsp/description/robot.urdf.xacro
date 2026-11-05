@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot name="MINI_R1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="package_name" value = "camera_rsp"/>
+    <xacro:arg name="use_control" default="false"/>
+       
+    <xacro:include filename="$(find ${package_name})/description/robot_core.xacro"/>
+
+    <xacro:include filename="$(find ${package_name})/description/lidar.xacro"/>
+
+    <xacro:include filename="$(find ${package_name})/description/sensors.xacro"/>
+
+    <xacro:include filename="$(find ${package_name})/description/camera.xacro"/>
+
+     <xacro:include filename="$(find ${package_name})/description/gazebo_control.xacro"/>
+
+    <xacro:if value="$(eval use_control)">
+    </xacro:if>
+
+
+    <xacro:unless value="$(eval use_control)">
+            
+    </xacro:unless>
+</robot>

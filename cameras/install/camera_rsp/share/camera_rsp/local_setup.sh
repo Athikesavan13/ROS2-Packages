@@ -1,0 +1,1 @@
+/home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp/ament_cmake_environment_hooks/local_setup.sh

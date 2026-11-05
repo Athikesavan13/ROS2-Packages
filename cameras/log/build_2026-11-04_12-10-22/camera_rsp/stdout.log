@@ -1,0 +1,48 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/Athi-26532/ROS_Practice/cameras/build/camera_rsp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/camera.xacro
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/gazebo_control.xacro
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/inertial_macros.xacro
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/lidar.xacro
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/robot.urdf.xacro
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/robot_core.xacro
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/description/sensors.xacro
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/launch/camera.launch.py
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/launch/launch_sim.launch.py
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/launch/rplidar.launch.py
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/launch/rsp_launch.py
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/worlds/empty.world
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/worlds/obstacles.world
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/CAM.STL
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/IMU.STL
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/LIDAR.STL
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/TR_LF.STL
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/TR_LR.STL
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/TR_RF.STL
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/TR_RR.STL
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/meshes/base_link.STL
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/ament_index/resource_index/package_run_dependencies/camera_rsp
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/ament_index/resource_index/parent_prefix_path/camera_rsp
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/environment/ament_prefix_path.sh
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/environment/path.sh
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/environment/path.dsv
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/local_setup.bash
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/local_setup.sh
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/local_setup.zsh
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/local_setup.dsv
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/package.dsv
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/ament_index/resource_index/packages/camera_rsp
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/cmake/camera_rspConfig.cmake
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/cmake/camera_rspConfig-version.cmake
+-- Symlinking: /home/user/Athi-26532/ROS_Practice/cameras/install/camera_rsp/share/camera_rsp/package.xml
